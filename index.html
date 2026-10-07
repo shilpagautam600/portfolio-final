@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="home">
+            <h2>Hello, I'm Shilpa</h2>
+            <img src="assets/profile.jpg.jpeg" alt="profile picture of Shilpa Gautam" width="150" height="200">
+            <p>Web Development Student</p>
+            <a href="#projects">View My Projects</a>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a web development student interested in creating
+                simple, attractive and responsive websites.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <div class="grid">
+                <div>HTML</div>
+                <div>CSS</div>
+                <div>JavaScript</div>
+                <div>GitHub</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <div class="grid">
+                <article>
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio created using HTML and CSS.</p>
+                </article>
+
+                <article>
+                    <h3>Responsive Website</h3>
+                    <p>A mobile-friendly website using CSS Grid.</p>
+                </article>
+
+                <article>
+                    <h3>Student Project</h3>
+                    <p>A simple web development practice project.</p>
+                </article>
+            </div>
+        </section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Shilpa Gautam</p>
+    </footer>
+
+</body>
+</html>
